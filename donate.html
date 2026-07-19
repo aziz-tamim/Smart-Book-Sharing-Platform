@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiplomaBook | Exchange • Share • Learn</title>
+
+    <link rel="stylesheet" href="donate.css">
+    <link rel="stylesheet" href="responsive.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <link rel="stylesheet" href="nav.css">
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header>
+
+    <nav class="navbar">
+
+        <div class="logo">
+            <a href="index.html">📚 DiplomaBook</a>
+        </div>
+
+        <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+    <span class="nav-toggle-bar"></span>
+    <span class="nav-toggle-bar"></span>
+    <span class="nav-toggle-bar"></span>
+</button>
+<div class="nav-links" id="primary-nav">
+<ul class="menu">
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="books.html">Books</a></li>
+
+            <li><a href="departments.html">Departments</a></li>
+
+            <li><a class="active" href="donate.html">Donate Book</a></li>
+
+            <li><a href="request.html">Request Book</a></li>
+
+            <li><a href="about.html">About</a></li>
+
+            <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+
+        <a href="login.html" class="login-btn">Login</a>
+</div>
+
+    </nav>
+
+</header>
+
+<!--================ HERO ================-->
+
+<section class="donate-hero">
+
+<div class="hero-text">
+
+<h5>📚 Share Knowledge</h5>
+
+<h1>
+Donate Your Diploma Books
+</h1>
+
+<p>
+
+Help junior students by donating or selling your
+used books. Your old books can become someone
+else's learning opportunity.
+
+</p>
+
+<a href="#donateForm" class="hero-btn">
+
+Donate Now
+
+</a>
+
+</div>
+
+<div class="hero-image">
+
+<img src="images/donate-book.png" alt="Donate Book">
+
+</div>
+
+</section>
+
+<!--================ DONATE FORM ================-->
+
+<section class="donate-section" id="donateForm">
+
+<h2>Book Donation Form</h2>
+
+<p>
+
+Fill up the form below to donate or sell your book.
+
+</p>
+
+<form id="donateBookForm">
+
+<div class="input-box">
+
+<div>
+
+<label>Student Name</label>
+
+<input
+id="donorName"
+type="text"
+placeholder="Enter your full name">
+
+</div>
+
+<div>
+
+<label>Email Address</label>
+
+<input
+type="email"
+placeholder="Enter your email">
+
+</div>
+
+</div>
+
+<div class="input-box">
+
+<div>
+
+<label>Phone Number</label>
+
+<input
+type="text"
+placeholder="01XXXXXXXXX">
+
+</div>
+
+<div>
+
+<label>Institute Name</label>
+
+<input
+type="text"
+placeholder="Polytechnic Institute">
+
+</div>
+
+</div>
+
+<div class="input-box">
+
+<div>
+
+<label>Department</label>
+
+<select id="bookDept">
+
+<option>Computer</option>
+
+<option>Civil</option>
+
+<option>Electrical</option>
+
+<option>Mechanical</option>
+
+<option>Electronics</option>
+
+<option>Architecture</option>
+
+<option>Telecommunication</option>
+
+<option>RAC</option>
+
+<option>Power</option>
+
+<option>Automobile</option>
+
+</select>
+
+</div>
+
+<div>
+
+<label>Semester</label>
+
+<select id="bookSem">
+
+<option>1st Semester</option>
+
+<option>2nd Semester</option>
+
+<option>3rd Semester</option>
+
+<option>4th Semester</option>
+
+<option>5th Semester</option>
+
+<option>6th Semester</option>
+
+<option>7th Semester</option>
+
+<option>8th Semester</option>
+
+</select>
+
+</div>
+
+</div>
+
+
+
+<!--================ BOOK INFORMATION ================-->
+
+<div class="input-box">
+
+    <div>
+
+        <label>Book Name</label>
+
+        <input
+        id="bookName"
+        type="text"
+        placeholder="Programming in C">
+
+    </div>
+
+    <div>
+
+        <label>Author Name</label>
+
+        <input
+        id="authorName"
+        type="text"
+        placeholder="Author Name">
+
+    </div>
+
+</div>
+
+<div class="input-box">
+
+    <div>
+
+        <label>Book Category</label>
+
+        <select id="bookCategory">
+
+            <option>New Book</option>
+
+            <option>Used Book</option>
+
+            <option>Free Donation</option>
+
+            <option>Exchange Book</option>
+
+        </select>
+
+    </div>
+
+    <div>
+
+        <label>Book Condition</label>
+
+        <select id="bookCondition">
+
+            <option>Excellent</option>
+
+            <option>Good</option>
+
+            <option>Average</option>
+
+            <option>Old</option>
+
+        </select>
+
+    </div>
+
+</div>
+
+<div class="input-box">
+
+    <div>
+
+        <label>Expected Price (Optional)</label>
+
+        <input
+        id="bookPrice"
+        type="number"
+        placeholder="500">
+
+    </div>
+
+    <div>
+
+        <label>Book Edition</label>
+
+        <input
+        type="text"
+        placeholder="2nd Edition">
+
+    </div>
+
+</div>
+
+<div class="full-input">
+
+    <label>Book Description</label>
+
+    <textarea
+    rows="6"
+    placeholder="Write a short description about your book..."></textarea>
+
+</div>
+
+<div class="input-box">
+
+    <div>
+
+        <label>Upload Book Cover</label>
+
+        <input id="bookCover" type="file" accept="image/*">
+
+    </div>
+
+    <div>
+
+        <label>Upload Additional Images</label>
+
+        <input
+        type="file"
+        multiple>
+
+    </div>
+
+</div>
+
+<div class="submit-area">
+
+    <button type="submit">
+
+        <i class="fa-solid fa-paper-plane"></i>
+
+        Submit Book
+
+    </button>
+
+</div>
+</form>
+</section>
+
+<!--================ DONATION BOOKS ================-->
+
+<section class="donation-books" id="donationBooks">
+
+    <div class="section-title">
+
+        <h2>Donation Books</h2>
+
+        <p>
+            Books recently donated by our students. Submit the form above to add yours.
+        </p>
+
+    </div>
+
+    <div class="donation-grid" id="donationGrid" aria-live="polite"></div>
+
+    <div class="donation-empty" id="donationEmpty" hidden>
+        <i class="fa-solid fa-book-open-reader"></i>
+        <h3>No donated books yet</h3>
+        <p>Be the first to donate — fill out the form above.</p>
+    </div>
+
+</section>
+
+<!--================ WHY DONATE ================-->
+
+<section class="why-donate">
+
+    <div class="section-title">
+
+        <h2>Why Donate Your Books?</h2>
+
+        <p>
+            Your old books can help another diploma student continue their education.
+        </p>
+
+    </div>
+
+    <div class="feature-container">
+
+        <div class="feature-card">
+
+            <i class="fa-solid fa-book-open-reader"></i>
+
+            <h3>Help Students</h3>
+
+            <p>
+                Support junior students who cannot afford new books.
+            </p>
+
+        </div>
+
+        <div class="feature-card">
+
+            <i class="fa-solid fa-recycle"></i>
+
+            <h3>Reuse Books</h3>
+
+            <p>
+                Give your books a second life instead of leaving them unused.
+            </p>
+
+        </div>
+
+        <div class="feature-card">
+
+            <i class="fa-solid fa-hand-holding-heart"></i>
+
+            <h3>Support Education</h3>
+
+            <p>
+                Make quality education more accessible through book sharing.
+            </p>
+
+        </div>
+
+        <div class="feature-card">
+
+            <i class="fa-solid fa-earth-asia"></i>
+
+            <h3>Eco Friendly</h3>
+
+            <p>
+                Reduce paper waste and help build a greener future.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--================ FOOTER ================-->
+
+<footer>
+
+    <div class="footer-container">
+
+        <div class="footer-box">
+
+            <h2>📚 DiplomaBook</h2>
+
+            <p>
+                DiplomaBook helps diploma students find new books,
+                buy used books at affordable prices and exchange
+                books with other students.
+            </p>
+
+            <div class="social">
+
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+                <a href="#"><i class="fab fa-instagram"></i></a>
+
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+                <a href="#"><i class="fab fa-youtube"></i></a>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="footer-box">
+
+            <h3>Quick Links</h3>
+
+            <ul>
+
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="books.html">Books</a></li>
+
+                <li><a href="departments.html">Departments</a></li>
+
+                <li><a href="donate.html">Donate Book</a></li>
+
+                <li><a href="request.html">Request Book</a></li>
+
+            </ul>
+
+        </div>
+
+
+
+        <div class="footer-box">
+
+            <h3>Book Categories</h3>
+
+            <ul>
+
+                <li><a href="#">New Books</a></li>
+
+                <li><a href="#">Used Books</a></li>
+
+                <li><a href="#">Free Books</a></li>
+
+                <li><a href="#">Exchange Books</a></li>
+
+            </ul>
+
+        </div>
+
+
+
+        <div class="footer-box">
+
+            <h3>Contact</h3>
+
+            <p><i class="fa-solid fa-location-dot"></i> Feni, Bangladesh</p>
+
+            <p><i class="fa-solid fa-phone"></i> +8801XXXXXXXXX</p>
+
+            <p><i class="fa-solid fa-envelope"></i> info@diplomabook.com</p>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="copyright">
+
+        <p>
+            © 2026 DiplomaBook | All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+<!--========== Scroll Top ==========-->
+
+<button id="topBtn">
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<script src="script.js"></script>
+
+<script src="donate.js"></script>
+</body>
+
+</html>

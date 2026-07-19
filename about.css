@@ -1,0 +1,780 @@
+/* ===========================
+   Google Font
+=========================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#d7e8fa;
+    color:#333;
+}
+
+a{
+    text-decoration:none;
+}
+
+ul{
+    list-style:none;
+}
+
+img{
+    width:100%;
+    display:block;
+}
+
+/* ===========================
+Navbar
+=========================== */
+header{
+    width:100%;
+    background:#fff;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    position:sticky;
+    top:0;
+    z-index:999;
+}
+
+.navbar{
+
+    width:90%;
+    margin:auto;
+
+    height:80px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+
+.logo a{
+
+    font-size:28px;
+    font-weight:700;
+    color:#2563eb;
+
+}
+
+.menu{
+
+    display:flex;
+    gap:30px;
+
+}
+
+.menu li a{
+
+    color:#444;
+    font-size:16px;
+    font-weight:500;
+    transition:.3s;
+
+}
+
+.menu li a:hover,
+.menu li a.active{
+
+    color:#2563eb;
+
+}
+
+.login-btn{
+
+    background:#2563eb;
+    color:#fff;
+
+    padding:12px 28px;
+
+    border-radius:30px;
+
+    transition:.3s;
+
+}
+
+.login-btn:hover{
+
+    background:#1d4ed8;
+
+}
+
+/*==================================
+        ABOUT HERO
+==================================*/
+
+.about-hero{
+
+    width:90%;
+    margin:40px auto;
+    padding:70px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:60px;
+
+    background:linear-gradient(135deg,#eef5ff,#dbeafe);
+
+    border-radius:30px;
+
+}
+
+.hero-text{
+
+    flex:1;
+
+}
+
+.hero-text h5{
+
+    color:#2563eb;
+    font-size:18px;
+    margin-bottom:15px;
+
+}
+
+.hero-text h1{
+
+    font-size:55px;
+    line-height:68px;
+    color:#1f2937;
+    margin-bottom:25px;
+
+}
+
+.hero-text p{
+
+    color:#64748b;
+    font-size:18px;
+    line-height:32px;
+    margin-bottom:35px;
+
+}
+
+.hero-image{
+
+    flex:1;
+    text-align:right;
+
+}
+
+.hero-image img{
+
+    max-width:700px;
+
+
+}
+/*==================================
+        ABOUT SECTION
+==================================*/
+
+.about-section{
+
+    width:90%;
+    margin:90px auto;
+
+    display:flex;
+    align-items:center;
+    gap:60px;
+
+}
+
+.about-image{
+
+    flex:1;
+
+}
+
+.about-image img{
+
+    border-radius:20px;
+
+}
+
+.about-content{
+
+    flex:1;
+
+}
+
+.about-content h2{
+
+    font-size:40px;
+    margin-bottom:25px;
+    color:#1f2937;
+
+}
+
+.about-content p{
+
+    color:#64748b;
+    line-height:30px;
+    margin-bottom:20px;
+
+}
+
+.about-feature{
+
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+    margin-top:30px;
+
+}
+
+.feature-box{
+
+    background:#fff;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.feature-box i{
+
+    font-size:35px;
+    color:#2563eb;
+    margin-bottom:15px;
+
+}
+
+/*==================================
+    MISSION & VISION
+==================================*/
+
+.mission{
+
+    width:90%;
+    margin:90px auto;
+
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+
+}
+
+.mission-card{
+
+    background:#fff;
+    padding:40px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.mission-card i{
+
+    font-size:45px;
+    color:#2563eb;
+    margin-bottom:20px;
+
+}
+
+.mission-card h2{
+
+    margin-bottom:20px;
+
+}
+
+.mission-card p{
+
+    color:#64748b;
+    line-height:30px;
+
+}
+
+/*==================================
+        WHY CHOOSE
+==================================*/
+
+.why-choose{
+
+    width:90%;
+    margin:90px auto;
+    text-align:center;
+
+}
+
+.section-title{
+
+    margin-bottom:50px;
+
+}
+
+.section-title h2{
+
+    font-size:40px;
+    margin-bottom:15px;
+
+}
+
+.section-title p{
+
+    color:#64748b;
+
+}
+
+.choose-container{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:30px;
+
+}
+
+.choose-card{
+
+    background:#fff;
+    padding:35px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+
+}
+
+.choose-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.choose-card i{
+
+    font-size:40px;
+    color:#2563eb;
+    margin-bottom:20px;
+
+}
+
+.choose-card h3{
+
+    margin-bottom:15px;
+
+}
+
+.choose-card p{
+
+    color:#64748b;
+    line-height:28px;
+
+}
+
+
+/*==================================
+        STATISTICS
+==================================*/
+
+.statistics{
+
+    width:90%;
+    margin:90px auto;
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+
+}
+
+.stat-card{
+
+    background:#fff;
+    padding:35px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.stat-card i{
+
+    font-size:40px;
+    color:#2563eb;
+    margin-bottom:15px;
+
+}
+
+.stat-card h2{
+
+    font-size:40px;
+    color:#2563eb;
+    margin-bottom:10px;
+
+}
+
+.stat-card p{
+
+    color:#64748b;
+
+}
+
+/*==================================
+            CTA
+==================================*/
+
+.about-cta{
+
+    width:90%;
+    margin:90px auto;
+
+    background:linear-gradient(135deg,#2563eb,#1d4ed8);
+
+    color:#fff;
+
+    padding:70px;
+
+    text-align:center;
+
+    border-radius:25px;
+
+}
+
+.about-cta h2{
+
+    font-size:42px;
+    margin-bottom:20px;
+
+}
+
+.about-cta p{
+
+    max-width:700px;
+    margin:0 auto 35px;
+    line-height:30px;
+
+}
+
+.cta-btn{
+
+    display:flex;
+    justify-content:center;
+    gap:20px;
+
+}
+
+.btn-primary{
+
+    background:#fff;
+    color:#2563eb;
+
+    padding:15px 30px;
+
+    border-radius:40px;
+
+}
+
+.btn-outline{
+
+    border:2px solid #fff;
+
+    color:#fff;
+
+    padding:15px 30px;
+
+    border-radius:40px;
+
+}
+
+/*==================================
+        RESPONSIVE
+==================================*/
+
+@media(max-width:992px){
+
+.about-hero,
+.about-section{
+
+    flex-direction:column;
+    text-align:center;
+
+}
+
+.mission{
+
+    grid-template-columns:1fr;
+
+}
+
+.hero-image{
+
+    text-align:center;
+
+}
+
+.hero-image img{
+
+    max-width:450px;
+
+}
+
+.about-feature{
+
+    grid-template-columns:1fr 1fr;
+
+}
+
+}
+
+@media(max-width:576px){
+
+.hero-text h1{
+
+    font-size:36px;
+    line-height:48px;
+
+}
+
+.about-content h2,
+.section-title h2,
+.about-cta h2{
+
+    font-size:30px;
+
+}
+
+.about-feature{
+
+    grid-template-columns:1fr;
+
+}
+
+.cta-btn{
+
+    flex-direction:column;
+
+}
+
+}
+
+/*==================================
+            FOOTER
+==================================*/
+
+footer{
+
+    background:#0f172a;
+
+    color:#fff;
+
+    margin-top:80px;
+
+    padding:60px 0 20px;
+
+}
+
+.footer-container{
+
+    width:90%;
+    margin:auto;
+
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:40px;
+
+}
+
+.footer-box h2,
+.footer-box h3{
+
+    margin-bottom:20px;
+
+}
+
+.footer-box p{
+
+    color:#cbd5e1;
+    line-height:28px;
+    margin-bottom:10px;
+
+}
+
+.footer-box ul{
+
+    padding:0;
+
+}
+
+.footer-box ul li{
+
+    list-style:none;
+    margin-bottom:12px;
+
+}
+
+.footer-box ul li a{
+
+    color:#cbd5e1;
+    transition:.3s;
+
+}
+
+.footer-box ul li a:hover{
+
+    color:#60a5fa;
+    padding-left:6px;
+
+}
+
+
+@media(max-width:992px){
+
+.footer-container{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:576px){
+
+.footer-container{
+
+grid-template-columns:1fr;
+
+text-align:center;
+
+}
+
+.social{
+
+justify-content:center;
+
+}
+
+}
+
+/*=============================
+        SOCIAL ICON
+=============================*/
+
+.social{
+
+    display:flex;
+    gap:15px;
+    margin-top:20px;
+
+}
+
+.social a{
+
+    width:42px;
+    height:42px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    border-radius:50%;
+
+    background:#1e293b;
+
+    color:#fff;
+
+    transition:.3s;
+
+}
+
+.social a:hover{
+
+    background:#2563eb;
+    transform:translateY(-5px);
+
+}
+
+/*=============================
+        COPYRIGHT
+=============================*/
+
+.copyright{
+
+    width:90%;
+    margin:40px auto 0;
+
+    border-top:1px solid rgba(255,255,255,.12);
+
+    text-align:center;
+
+    padding-top:20px;
+
+}
+
+.copyright p{
+
+    color:#cbd5e1;
+    font-size:15px;
+
+}
+
+
+/*==================================
+        SCROLL TO TOP
+==================================*/
+
+#topBtn{
+    position:fixed;
+    bottom:25px;
+    right:25px;
+
+    width:50px;
+    height:50px;
+
+    border:none;
+    border-radius:50%;
+
+    background:#2563eb;
+    color:#fff;
+
+    cursor:pointer;
+
+    display:none;
+
+    font-size:18px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.25);
+
+    transition:.3s;
+}
+
+#topBtn:hover{
+    background:#1748b3;
+    transform:scale(1.1);
+}
+
+
+/*==================================
+        SMOOTH SCROLL
+==================================*/
+
+html{
+    scroll-behavior:smooth;
+}
+
+
+/*==================================
+        GLOBAL HOVER
+==================================*/
+
+button,
+.btn,
+.login-btn,
+.donate a{
+    transition:.3s;
+}
+
+button:hover,
+.btn:hover{
+    transform:translateY(-2px);
+}
+
+
+/*==================================
+        RESPONSIVE
+==================================*/

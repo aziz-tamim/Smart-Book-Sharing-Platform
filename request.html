@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiplomaBook | Exchange • Share • Learn</title>
+
+    <link rel="stylesheet" href="request.css">
+    <link rel="stylesheet" href="responsive.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <link rel="stylesheet" href="nav.css">
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header>
+
+    <nav class="navbar">
+
+        <div class="logo">
+            <a href="index.html">📚 DiplomaBook</a>
+        </div>
+
+        <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+    <span class="nav-toggle-bar"></span>
+    <span class="nav-toggle-bar"></span>
+    <span class="nav-toggle-bar"></span>
+</button>
+<div class="nav-links" id="primary-nav">
+<ul class="menu">
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="books.html">Books</a></li>
+
+            <li><a href="departments.html">Departments</a></li>
+
+            <li><a href="donate.html">Donate Book</a></li>
+
+            <li><a class="active" href="request.html">Request Book</a></li>
+
+            <li><a href="about.html">About</a></li>
+
+            <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+
+        <a href="login.html" class="login-btn">Login</a>
+</div>
+
+    </nav>
+
+</header>
+
+<!--================ HERO SECTION ================-->
+
+<section class="request-hero">
+
+<div class="hero-text">
+
+<h5>📖 Find Your Required Book</h5>
+
+<h1>
+Request Your Diploma Book
+</h1>
+
+<p>
+
+Can't find your required diploma book?
+Submit your request and let seniors help you
+find new, used or free books easily.
+
+</p>
+
+<div class="hero-btns">
+
+<a href="#requestForm" class="btn-primary">
+
+<i class="fa-solid fa-paper-plane"></i>
+Request Now
+
+</a>
+
+<a href="books.html" class="btn-outline">
+
+<i class="fa-solid fa-book"></i>
+Browse Books
+
+</a>
+
+</div>
+
+</div>
+
+<div class="hero-image">
+
+<img src="images/request-book.png" alt="Request Book">
+
+</div>
+
+</section>
+
+<!--================ REQUEST FORM ================-->
+
+<section class="request-section" id="requestForm">
+
+    <h2>Book Request Form</h2>
+
+    <p>
+        Fill out the form below to request your required diploma book.
+    </p>
+
+    <form>
+
+        <!-- Personal Information -->
+
+        <div class="input-box">
+
+            <div>
+                <label>Student Name</label>
+                <input type="text" placeholder="Enter your full name">
+            </div>
+
+            <div>
+                <label>Email Address</label>
+                <input type="email" placeholder="Enter your email">
+            </div>
+
+        </div>
+
+        <div class="input-box">
+
+            <div>
+                <label>Phone Number</label>
+                <input type="text" placeholder="01XXXXXXXXX">
+            </div>
+
+            <div>
+                <label>Institute Name</label>
+                <input type="text" placeholder="Polytechnic Institute">
+            </div>
+
+        </div>
+
+        <!-- Academic Information -->
+
+        <div class="input-box">
+
+            <div>
+
+                <label>Department</label>
+
+                <select>
+
+                    <option>Computer</option>
+                    <option>Civil</option>
+                    <option>Electrical</option>
+                    <option>Electronics</option>
+                    <option>Mechanical</option>
+                    <option>Architecture</option>
+                    <option>Power</option>
+                    <option>RAC</option>
+                    <option>Automobile</option>
+                    <option>Telecommunication</option>
+
+                </select>
+
+            </div>
+
+            <div>
+
+                <label>Semester</label>
+
+                <select>
+
+                    <option>1st Semester</option>
+                    <option>2nd Semester</option>
+                    <option>3rd Semester</option>
+                    <option>4th Semester</option>
+                    <option>5th Semester</option>
+                    <option>6th Semester</option>
+                    <option>7th Semester</option>
+                    <option>8th Semester</option>
+
+                </select>
+
+            </div>
+
+        </div>
+
+        <!-- Book Information -->
+
+        <div class="input-box">
+
+            <div>
+                <label>Book Name</label>
+                <input type="text" placeholder="Programming in C">
+            </div>
+
+            <div>
+                <label>Author Name</label>
+                <input type="text" placeholder="Author Name">
+            </div>
+
+        </div>
+
+        <div class="input-box">
+
+            <div>
+                <label>Publisher</label>
+                <input type="text" placeholder="Publisher Name">
+            </div>
+
+            <div>
+                <label>Book Edition</label>
+                <input type="text" placeholder="2nd Edition">
+            </div>
+
+        </div>
+
+        <div class="input-box">
+
+            <div>
+
+                <label>Book Type</label>
+
+                <select>
+
+                    <option>Any</option>
+                    <option>New Book</option>
+                    <option>Used Book</option>
+                    <option>Free Book</option>
+
+                </select>
+
+            </div>
+
+            <div>
+
+                <label>Urgency</label>
+
+                <select>
+
+                    <option>Normal</option>
+                    <option>High</option>
+                    <option>Urgent</option>
+
+                </select>
+
+            </div>
+
+        </div>
+
+        <div class="input-box">
+
+            <div>
+
+                <label>Expected Budget (Optional)</label>
+
+                <input type="number" placeholder="500">
+
+            </div>
+
+            <div>
+
+                <label>Preferred Contact</label>
+
+                <select>
+
+                    <option>Phone</option>
+                    <option>Email</option>
+                    <option>Both</option>
+
+                </select>
+
+            </div>
+
+        </div>
+
+        <div class="full-input">
+
+            <label>Additional Note</label>
+
+            <textarea rows="6"
+                placeholder="Write any additional information about the required book..."></textarea>
+
+        </div>
+
+        <div class="submit-area">
+
+            <button type="submit">
+
+                <i class="fa-solid fa-paper-plane"></i>
+
+                Submit Request
+
+            </button>
+
+        </div>
+
+    </form>
+
+</section>
+<!--================ WHY REQUEST BOOK ================-->
+
+<section class="why-request">
+
+    <div class="section-title">
+
+        <h2>Why Request a Book?</h2>
+
+        <p>
+            Requesting books through DiplomaBook is quick, easy, and completely student-friendly.
+        </p>
+
+    </div>
+
+    <div class="feature-container">
+
+        <div class="feature-card">
+
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+            <h3>Easy Search</h3>
+
+            <p>
+                Submit your request in a few simple steps and let others help you find the book.
+            </p>
+
+        </div>
+
+        <div class="feature-card">
+
+            <i class="fa-solid fa-users"></i>
+
+            <h3>Student Community</h3>
+
+            <p>
+                Connect with senior and junior students across different departments.
+            </p>
+
+        </div>
+
+        <div class="feature-card">
+
+            <i class="fa-solid fa-book-open"></i>
+
+            <h3>More Book Choices</h3>
+
+            <p>
+                Request new books, used books, free books, or exchange books from students.
+            </p>
+
+        </div>
+
+        <div class="feature-card">
+
+            <i class="fa-solid fa-bolt"></i>
+
+            <h3>Quick Response</h3>
+
+            <p>
+                Receive notifications when someone has the book you are looking for.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!--================ HOW IT WORKS ================-->
+
+<section class="how-work">
+
+    <div class="section-title">
+
+        <h2>How It Works</h2>
+
+        <p>
+            Requesting your required diploma book is simple and takes only a few steps.
+        </p>
+
+    </div>
+
+    <div class="work-container">
+
+        <div class="work-card">
+
+            <div class="work-icon">
+
+                <i class="fa-solid fa-file-circle-plus"></i>
+
+            </div>
+
+            <h3>1. Submit Request</h3>
+
+            <p>
+                Fill out the request form with your required book information and submit it.
+            </p>
+
+        </div>
+
+        <div class="work-card">
+
+            <div class="work-icon">
+
+                <i class="fa-solid fa-user-check"></i>
+
+            </div>
+
+            <h3>2. Admin Reviews</h3>
+
+            <p>
+                Your request is verified and published so other students can view it.
+            </p>
+
+        </div>
+
+        <div class="work-card">
+
+            <div class="work-icon">
+
+                <i class="fa-solid fa-comments"></i>
+
+            </div>
+
+            <h3>3. Get Contact</h3>
+
+            <p>
+                Students who have the requested book can contact you directly.
+            </p>
+
+        </div>
+
+        <div class="work-card">
+
+            <div class="work-icon">
+
+                <i class="fa-solid fa-book-open-reader"></i>
+
+            </div>
+
+            <h3>4. Receive Book</h3>
+
+            <p>
+                Buy, borrow, or receive the book and continue your learning journey.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!--================ RECENT BOOK REQUESTS ================-->
+
+<section class="recent-request">
+
+    <div class="section-title">
+
+        <h2>Recent Book Requests</h2>
+
+        <p>
+            Browse the latest book requests submitted by diploma students.
+        </p>
+
+    </div>
+
+    <div class="request-container">
+
+        <!-- Card 1 -->
+
+        <div class="request-card">
+
+            <span class="status urgent">Urgent</span>
+
+            <h3>Digital Electronics</h3>
+
+            <p><i class="fa-solid fa-building-columns"></i> Computer Technology</p>
+
+            <p><i class="fa-solid fa-layer-group"></i> 3rd Semester</p>
+
+            <p><i class="fa-solid fa-user"></i> By: Rakib Hasan</p>
+
+            <h4>Budget: ৳350</h4>
+
+            <a href="#" class="request-btn">View Details</a>
+
+        </div>
+
+        <!-- Card 2 -->
+
+        <div class="request-card">
+
+            <span class="status normal">Normal</span>
+
+            <h3>Programming in C</h3>
+
+            <p><i class="fa-solid fa-building-columns"></i> Computer Technology</p>
+
+            <p><i class="fa-solid fa-layer-group"></i> 1st Semester</p>
+
+            <p><i class="fa-solid fa-user"></i> By: Nayeem</p>
+
+            <h4>Budget: ৳450</h4>
+
+            <a href="#" class="request-btn">View Details</a>
+
+        </div>
+
+        <!-- Card 3 -->
+
+        <div class="request-card">
+
+            <span class="status high">High</span>
+
+            <h3>Engineering Drawing</h3>
+
+            <p><i class="fa-solid fa-building-columns"></i> Civil Technology</p>
+
+            <p><i class="fa-solid fa-layer-group"></i> 2nd Semester</p>
+
+            <p><i class="fa-solid fa-user"></i> By: Sadia</p>
+
+            <h4>Budget: ৳400</h4>
+
+            <a href="#" class="request-btn">View Details</a>
+
+        </div>
+
+        <!-- Card 4 -->
+
+        <div class="request-card">
+
+            <span class="status normal">Normal</span>
+
+            <h3>Principles of Marketing</h3>
+
+            <p><i class="fa-solid fa-building-columns"></i> Business Technology</p>
+
+            <p><i class="fa-solid fa-layer-group"></i> 4th Semester</p>
+
+            <p><i class="fa-solid fa-user"></i> By: Jannat</p>
+
+            <h4>Budget: ৳300</h4>
+
+            <a href="#" class="request-btn">View Details</a>
+
+        </div>
+
+        <!-- Card 5 -->
+
+        <div class="request-card">
+
+            <span class="status urgent">Urgent</span>
+
+            <h3>Architectural Design</h3>
+
+            <p><i class="fa-solid fa-building-columns"></i> Architecture</p>
+
+            <p><i class="fa-solid fa-layer-group"></i> 5th Semester</p>
+
+            <p><i class="fa-solid fa-user"></i> By: Tasnim</p>
+
+            <h4>Budget: ৳550</h4>
+
+            <a href="#" class="request-btn">View Details</a>
+
+        </div>
+
+        <!-- Card 6 -->
+
+        <div class="request-card">
+
+            <span class="status high">High</span>
+
+            <h3>Automobile Air Conditioning</h3>
+
+            <p><i class="fa-solid fa-building-columns"></i> Automobile</p>
+
+            <p><i class="fa-solid fa-layer-group"></i> 6th Semester</p>
+
+            <p><i class="fa-solid fa-user"></i> By: Fahim</p>
+
+            <h4>Budget: ৳600</h4>
+
+            <a href="#" class="request-btn">View Details</a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!--================ FAQ SECTION ================-->
+
+<section class="faq">
+
+    <div class="section-title">
+
+        <h2>Frequently Asked Questions</h2>
+
+        <p>
+            Find answers to the most common questions about requesting books.
+        </p>
+
+    </div>
+
+    <div class="faq-container">
+
+        <!-- FAQ 1 -->
+
+        <div class="faq-item">
+
+            <button class="faq-question" type="button" aria-expanded="false">
+
+                How can I request a book?
+
+                <i class="fa-solid fa-plus"></i>
+
+            </button>
+
+            <div class="faq-answer">
+
+                <p>
+                    Simply fill out the request form with your required book details
+                    and submit it. Other students or seniors can contact you if they
+                    have the book.
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- FAQ 2 -->
+
+        <div class="faq-item">
+
+            <button class="faq-question" type="button" aria-expanded="false">
+
+                Is requesting a book free?
+
+                <i class="fa-solid fa-plus"></i>
+
+            </button>
+
+            <div class="faq-answer">
+
+                <p>
+                    Yes. Creating a book request is completely free for all diploma
+                    students.
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- FAQ 3 -->
+
+        <div class="faq-item">
+
+            <button class="faq-question" type="button" aria-expanded="false">
+
+                How will I contact the book owner?
+
+                <i class="fa-solid fa-plus"></i>
+
+            </button>
+
+            <div class="faq-answer">
+
+                <p>
+                    Once someone responds to your request, you can communicate through
+                    the contact information provided.
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- FAQ 4 -->
+
+        <div class="faq-item">
+
+            <button class="faq-question" type="button" aria-expanded="false">
+
+                Can I request more than one book?
+
+                <i class="fa-solid fa-plus"></i>
+
+            </button>
+
+            <div class="faq-answer">
+
+                <p>
+                    Yes. You can submit multiple requests for different diploma books
+                    whenever you need them.
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- FAQ 5 -->
+
+        <div class="faq-item">
+
+            <button class="faq-question" type="button" aria-expanded="false">
+
+                How long will my request stay active?
+
+                <i class="fa-solid fa-plus"></i>
+
+            </button>
+
+            <div class="faq-answer">
+
+                <p>
+                    Your request will remain active until you receive the book or
+                    choose to remove the request.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--================ FOOTER ================-->
+
+<footer>
+
+    <div class="footer-container">
+
+        <div class="footer-box">
+
+            <h2>📚 DiplomaBook</h2>
+
+            <p>
+                DiplomaBook helps diploma students find new books,
+                buy used books at affordable prices and exchange
+                books with other students.
+            </p>
+
+            <div class="social">
+
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+                <a href="#"><i class="fab fa-instagram"></i></a>
+
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+                <a href="#"><i class="fab fa-youtube"></i></a>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="footer-box">
+
+            <h3>Quick Links</h3>
+
+            <ul>
+
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="books.html">Books</a></li>
+
+                <li><a href="departments.html">Departments</a></li>
+
+                <li><a href="donate.html">Donate Book</a></li>
+
+                <li><a href="request.html">Request Book</a></li>
+
+            </ul>
+
+        </div>
+
+
+
+        <div class="footer-box">
+
+            <h3>Book Categories</h3>
+
+            <ul>
+
+                <li><a href="#">New Books</a></li>
+
+                <li><a href="#">Used Books</a></li>
+
+                <li><a href="#">Free Books</a></li>
+
+                <li><a href="#">Exchange Books</a></li>
+
+            </ul>
+
+        </div>
+
+
+
+        <div class="footer-box">
+
+            <h3>Contact</h3>
+
+            <p><i class="fa-solid fa-location-dot"></i> Feni, Bangladesh</p>
+
+            <p><i class="fa-solid fa-phone"></i> +8801XXXXXXXXX</p>
+
+            <p><i class="fa-solid fa-envelope"></i> info@diplomabook.com</p>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="copyright">
+
+        <p>
+            © 2026 DiplomaBook | All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+<!--========== Scroll Top ==========-->
+
+<button id="topBtn">
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<script src="script.js"></script>
+</body>
+
+</html>

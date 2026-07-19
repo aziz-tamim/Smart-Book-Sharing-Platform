@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Register | DiplomaBook</title>
+
+<link rel="stylesheet" href="register.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet" href="nav.css">
+</head>
+
+<body>
+
+<!--================ NAVBAR ================-->
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+            <a href="index.html">📚 DiplomaBook</a>
+        </div>
+
+<button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+    <span class="nav-toggle-bar"></span>
+    <span class="nav-toggle-bar"></span>
+    <span class="nav-toggle-bar"></span>
+</button>
+<div class="nav-links" id="primary-nav">
+<ul class="menu">
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="books.html">Books</a></li>
+
+<li><a href="departments.html">Departments</a></li>
+
+<li><a href="donate.html">Donate</a></li>
+
+<li><a href="request.html">Request</a></li>
+
+<li><a href="about.html">About</a></li>
+
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+<a href="login.html" class="login-btn">Login</a>
+</div>
+
+</nav>
+
+</header>
+
+<!--================ REGISTER SECTION ================-->
+
+<section class="register-section">
+
+<div class="register-image">
+
+<img src="images/register-banner.png" alt="Register">
+
+</div>
+
+<div class="register-box">
+
+<h2>Create Your Account 🚀</h2>
+
+<p>
+
+Join DiplomaBook and start buying, selling,
+donating, and requesting books.
+
+</p>
+
+<form>
+
+<!--================ PERSONAL INFORMATION ================-->
+
+<div class="input-row">
+
+    <div class="input-group">
+
+        <label>Full Name</label>
+
+        <div class="input-field">
+
+            <i class="fa-solid fa-user"></i>
+
+            <input
+            type="text"
+            placeholder="Enter your full name"
+            required>
+
+        </div>
+
+    </div>
+
+    <div class="input-group">
+
+        <label>Email Address</label>
+
+        <div class="input-field">
+
+            <i class="fa-solid fa-envelope"></i>
+
+            <input
+            type="email"
+            placeholder="Enter your email"
+            required>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<div class="input-row">
+
+    <div class="input-group">
+
+        <label>Phone Number</label>
+
+        <div class="input-field">
+
+            <i class="fa-solid fa-phone"></i>
+
+            <input
+            type="text"
+            placeholder="01XXXXXXXXX"
+            required>
+
+        </div>
+
+    </div>
+
+    <div class="input-group">
+
+        <label>Institute Name</label>
+
+        <div class="input-field">
+
+            <i class="fa-solid fa-building-columns"></i>
+
+            <input
+            type="text"
+            placeholder="Polytechnic Institute"
+            required>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<div class="input-row">
+
+    <div class="input-group">
+
+        <label>Department</label>
+
+        <div class="input-field">
+
+            <i class="fa-solid fa-graduation-cap"></i>
+
+            <select required>
+
+                <option selected disabled>Select Department</option>
+
+                <option>Computer</option>
+
+                <option>Civil</option>
+
+                <option>Electrical</option>
+
+                <option>Mechanical</option>
+
+                <option>Electronics</option>
+
+                <option>Architecture</option>
+
+                <option>Telecommunication</option>
+
+                <option>RAC</option>
+
+                <option>Power</option>
+
+                <option>Automobile</option>
+
+            </select>
+
+        </div>
+
+    </div>
+
+    <div class="input-group">
+
+        <label>Semester</label>
+
+        <div class="input-field">
+
+            <i class="fa-solid fa-layer-group"></i>
+
+            <select required>
+
+                <option selected disabled>Select Semester</option>
+
+                <option>1st Semester</option>
+
+                <option>2nd Semester</option>
+
+                <option>3rd Semester</option>
+
+                <option>4th Semester</option>
+
+                <option>5th Semester</option>
+
+                <option>6th Semester</option>
+
+                <option>7th Semester</option>
+
+                <option>8th Semester</option>
+
+            </select>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!--================ PASSWORD SECTION ================-->
+
+<div class="input-row">
+
+    <div class="input-group">
+
+        <label>Password</label>
+
+        <div class="input-field">
+
+            <i class="fa-solid fa-lock"></i>
+
+            <input
+            type="password"
+            placeholder="Enter Password"
+            required>
+
+        </div>
+
+    </div>
+
+    <div class="input-group">
+
+        <label>Confirm Password</label>
+
+        <div class="input-field">
+
+            <i class="fa-solid fa-lock"></i>
+
+            <input
+            type="password"
+            placeholder="Confirm Password"
+            required>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!--================ TERMS ================-->
+
+<div class="register-option">
+
+    <label>
+
+        <input type="checkbox" required>
+
+        I agree to the
+
+        <a href="terms.html">Terms & Conditions</a>
+
+        and
+
+        <a href="privacy.html">Privacy Policy</a>
+
+    </label>
+
+</div>
+
+<!--================ REGISTER BUTTON ================-->
+
+<button type="submit" class="register-btn">
+
+    <i class="fa-solid fa-user-plus"></i>
+
+    Create Account
+
+</button>
+
+<!--================ DIVIDER ================-->
+
+<div class="divider">
+
+    <span>OR</span>
+
+</div>
+
+<!--================ GOOGLE REGISTER ================-->
+
+<a href="#" class="google-btn">
+
+    <i class="fa-brands fa-google"></i>
+
+    Continue with Google
+
+</a>
+
+<!--================ LOGIN LINK ================-->
+
+<p class="login-text">
+
+    Already have an account?
+
+    <a href="login.html">
+
+        Login Here
+
+    </a>
+
+</p>
+
+</form>
+
+</div>
+
+</section>
+
+<!--================ FOOTER ================-->
+
+<footer>
+
+    <div class="copyright">
+
+        <p>© 2026 DiplomaBook. All Rights Reserved.</p>
+
+    </div>
+
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>

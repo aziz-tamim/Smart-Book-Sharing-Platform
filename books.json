@@ -1,0 +1,46 @@
+[
+  { "title": "Automobile Engineering-1", "department": "Automobile", "semester": "3rd Semester", "category": "New", "price": 180, "image": "images/automobile/auto1.jpg" },
+  { "title": "Automobile Chassis & Body", "department": "Automobile", "semester": "4th Semester", "category": "Used", "price": 120, "image": "images/automobile/auto2.jpg" },
+  { "title": "Engine Systems", "department": "Automobile", "semester": "5th Semester", "category": "New", "price": 200, "image": "images/automobile/auto3.jpg" },
+  { "title": "Vehicle Maintenance", "department": "Automobile", "semester": "6th Semester", "category": "Free", "price": 0, "image": "images/automobile/auto4.jpg" },
+
+  { "title": "Architectural Design-1", "department": "Architecture", "semester": "2nd Semester", "category": "New", "price": 190, "image": "images/architecture/arc1.jpg" },
+  { "title": "Building Materials", "department": "Architecture", "semester": "3rd Semester", "category": "Used", "price": 130, "image": "images/architecture/arc2.jpg" },
+  { "title": "Basic Surveying", "department": "Architecture", "semester": "4th Semester", "category": "Free", "price": 0, "image": "images/architecture/arc3.jpg" },
+  { "title": "Structural Design", "department": "Architecture", "semester": "6th Semester", "category": "New", "price": 210, "image": "images/architecture/arc4.jpg" },
+
+  { "title": "Programming in C", "department": "CST", "semester": "2nd Semester", "category": "New", "price": 150, "image": "images/cst/cst1.jpg" },
+  { "title": "Data Structures", "department": "CST", "semester": "3rd Semester", "category": "Used", "price": 140, "image": "images/cst/cst2.jpg" },
+  { "title": "Database Management", "department": "CST", "semester": "4th Semester", "category": "New", "price": 170, "image": "images/cst/cst3.jpg" },
+  { "title": "Python Programming", "department": "CST", "semester": "3rd Semester", "category": "Free", "price": 0, "image": "images/cst/cst4.jpg" },
+
+  { "title": "Engineering Drawing", "department": "Civil", "semester": "1st Semester", "category": "New", "price": 160, "image": "images/civil/civ1.jpg" },
+  { "title": "Surveying-1", "department": "Civil", "semester": "3rd Semester", "category": "Used", "price": 120, "image": "images/civil/civ2.jpg" },
+  { "title": "Concrete Technology", "department": "Civil", "semester": "5th Semester", "category": "Free", "price": 0, "image": "images/civil/civ3.jpg" },
+  { "title": "Estimating & Costing-2", "department": "Civil", "semester": "7th Semester", "category": "New", "price": 170, "image": "images/civil/civ4.jpg" },
+
+  { "title": "Basic Electronics", "department": "Electronics", "semester": "2nd Semester", "category": "New", "price": 155, "image": "images/electric/elec1.jpg" },
+  { "title": "Industrial Electronics", "department": "Electronics", "semester": "3rd Semester", "category": "New", "price": 170, "image": "images/electric/elec2.jpeg" },
+  { "title": "Digital Electronics", "department": "Electronics", "semester": "4th Semester", "category": "Used", "price": 125, "image": "images/electric/elec3.jpg" },
+  { "title": "Microcontrollers", "department": "Electronics", "semester": "6th Semester", "category": "Free", "price": 0, "image": "images/electric/elec4.jpg" },
+
+  { "title": "Workshop Practice", "department": "Mechanical", "semester": "1st Semester", "category": "Free", "price": 0, "image": "images/mechanic/mec1.jpg" },
+  { "title": "Thermodynamics", "department": "Mechanical", "semester": "3rd Semester", "category": "New", "price": 175, "image": "images/mechanic/mec2.jpg" },
+  { "title": "Fluid Mechanics", "department": "Mechanical", "semester": "4th Semester", "category": "Used", "price": 130, "image": "images/mechanic/mec3.jpg" },
+  { "title": "Machine Design", "department": "Mechanical", "semester": "6th Semester", "category": "New", "price": 200, "image": "images/mechanic/mec4.jpg" },
+
+  { "title": "Electrical Circuits", "department": "Power", "semester": "2nd Semester", "category": "Free", "price": 0, "image": "images/power/power1.jpg" },
+  { "title": "Electrical Machines-1", "department": "Power", "semester": "3rd Semester", "category": "New", "price": 180, "image": "images/power/power2.jpg" },
+  { "title": "Power Generation", "department": "Power", "semester": "5th Semester", "category": "Used", "price": 140, "image": "images/power/power3.jpg" },
+  { "title": "Switchgear & Protection", "department": "Power", "semester": "6th Semester", "category": "New", "price": 195, "image": "images/power/power4.jpg" },
+
+  { "title": "Basic Refrigeration", "department": "Refrigeration", "semester": "2nd Semester", "category": "New", "price": 165, "image": "images/rac/rac1.jpg" },
+  { "title": "HVAC Fundamentals", "department": "Refrigeration", "semester": "3rd Semester", "category": "Free", "price": 0, "image": "images/rac/rac2.jpeg" },
+  { "title": "Air Conditioning", "department": "Refrigeration", "semester": "4th Semester", "category": "Used", "price": 125, "image": "images/rac/rac3.jpg" },
+  { "title": "Cold Storage Systems", "department": "Refrigeration", "semester": "5th Semester", "category": "New", "price": 185, "image": "images/rac/rac4.jpg" },
+
+  { "title": "Electrical Circuit-1", "department": "TCT", "semester": "2nd Semester", "category": "Free", "price": 0, "image": "images/tele/tct1.jpg" },
+  { "title": "Communication Systems", "department": "TCT", "semester": "4th Semester", "category": "New", "price": 175, "image": "images/tele/tct2.jpg" },
+  { "title": "Optical Fiber Communication", "department": "TCT", "semester": "6th Semester", "category": "Used", "price": 135, "image": "images/tele/tct3.jpg" },
+  { "title": "Microwave Engineering", "department": "TCT", "semester": "7th Semester", "category": "New", "price": 200, "image": "images/tele/tct4.jpeg" }
+]

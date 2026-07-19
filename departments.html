@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Departments | DiplomaBook</title>
+
+    <link rel="stylesheet" href="departments.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet" href="nav.css">
+</head>
+
+<body>
+
+<!--========== NAVBAR ==========-->
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+<a href="index.html">📚 DiplomaBook</a>
+</div>
+
+<button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+    <span class="nav-toggle-bar"></span>
+    <span class="nav-toggle-bar"></span>
+    <span class="nav-toggle-bar"></span>
+</button>
+<div class="nav-links" id="primary-nav">
+<ul class="menu">
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="books.html">Books</a></li>
+
+<li><a class="active" href="departments.html">Departments</a></li>
+
+<li><a href="donate.html">Donate Book</a></li>
+
+<li><a href="request.html">Request Book</a></li>
+
+<li><a href="about.html">About</a></li>
+
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+<a href="login.html" class="login-btn">Login</a>
+</div>
+
+</nav>
+
+</header>
+
+<!--========== Banner ==========-->
+
+<section class="department-banner">
+
+<div class="overlay">
+
+<h1>All Departments</h1>
+
+<p>
+Choose your department and explore available books.
+</p>
+
+</div>
+
+</section>
+
+<!--========== Search ==========-->
+
+<section class="search-box">
+
+<input type="text" id="deptSearch"
+placeholder="Search Department..." autocomplete="off">
+
+<button id="deptSearchBtn" type="button">
+
+<i class="fa-solid fa-magnifying-glass"></i>
+
+Search
+
+</button>
+
+</section>
+
+<!--========== Result Count ==========-->
+
+<p id="deptCount" class="dept-result-count">Loading departments…</p>
+
+<!--========== Department Cards ==========-->
+
+<section class="departments" id="deptGrid" aria-live="polite"></section>
+
+<div class="dept-no-results" id="deptNoResults" hidden>
+<i class="fa-solid fa-magnifying-glass"></i>
+<h3>No departments found</h3>
+<p>Try a different search term.</p>
+</div>
+
+
+
+<!--================ FOOTER ================-->
+
+<footer>
+
+    <div class="footer-container">
+
+        <div class="footer-box">
+
+            <h2>📚 DiplomaBook</h2>
+
+            <p>
+                DiplomaBook is a platform where diploma students can
+                buy, sell, donate and exchange books easily.
+            </p>
+
+            <div class="social">
+
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+                <a href="#"><i class="fab fa-instagram"></i></a>
+
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+                <a href="#"><i class="fab fa-youtube"></i></a>
+
+            </div>
+
+        </div>
+
+        <div class="footer-box">
+
+            <h3>Quick Links</h3>
+
+            <ul>
+
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="books.html">Books</a></li>
+
+                <li><a href="departments.html">Departments</a></li>
+
+                <li><a href="donate.html">Donate Book</a></li>
+
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+
+        </div>
+
+        <div class="footer-box">
+
+            <h3>Support</h3>
+
+            <ul>
+
+                <li><a href="#">FAQ</a></li>
+
+                <li><a href="#">Privacy Policy</a></li>
+
+                <li><a href="#">Terms & Conditions</a></li>
+
+            </ul>
+
+        </div>
+
+        <div class="footer-box">
+
+            <h3>Contact</h3>
+
+            <p><i class="fa-solid fa-location-dot"></i> Feni, Bangladesh</p>
+
+            <p><i class="fa-solid fa-phone"></i> +8801XXXXXXXXX</p>
+
+            <p><i class="fa-solid fa-envelope"></i> info@diplomabook.com</p>
+
+        </div>
+
+    </div>
+
+    <div class="copyright">
+
+        © 2026 DiplomaBook. All Rights Reserved.
+
+    </div>
+
+</footer>
+
+<!-- Scroll To Top -->
+
+<button id="topBtn">
+
+    <i class="fa-solid fa-arrow-up"></i>
+
+</button>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<script src="script.js"></script>
+
+<script src="departments.js"></script>
+
+</body>
+</html>

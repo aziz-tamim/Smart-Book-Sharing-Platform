@@ -1,0 +1,1056 @@
+/* ===========================
+   Google Font
+=========================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#d7e8fa;
+    color:#333;
+}
+
+a{
+    text-decoration:none;
+}
+
+ul{
+    list-style:none;
+}
+
+img{
+    width:100%;
+    display:block;
+}
+
+/* ===========================
+Navbar
+=========================== */
+header{
+    width:100%;
+    background:#fff;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    position:sticky;
+    top:0;
+    z-index:999;
+}
+
+.navbar{
+
+    width:90%;
+    margin:auto;
+
+    height:80px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+
+.logo a{
+
+    font-size:28px;
+    font-weight:700;
+    color:#2563eb;
+
+}
+
+.menu{
+
+    display:flex;
+    gap:30px;
+
+}
+
+.menu li a{
+
+    color:#444;
+    font-size:16px;
+    font-weight:500;
+    transition:.3s;
+
+}
+
+.menu li a:hover,
+.menu li a.active{
+
+    color:#2563eb;
+
+}
+
+.login-btn{
+
+    background:#2563eb;
+    color:#fff;
+
+    padding:12px 28px;
+
+    border-radius:30px;
+
+    transition:.3s;
+
+}
+
+.login-btn:hover{
+
+    background:#1d4ed8;
+
+}
+
+
+
+.donate-hero{
+
+    width:90%;
+    margin:40px auto;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    gap:60px;
+
+    padding:70px;
+
+    border-radius:30px;
+
+    background:linear-gradient(135deg,#eef5ff,#dbeafe);
+
+    overflow:hidden;
+
+}
+
+.hero-text{
+
+    flex:1;
+
+}
+
+.hero-text h5{
+
+    color:#2563eb;
+    font-size:18px;
+    margin-bottom:15px;
+
+}
+
+.hero-text h1{
+
+    font-size:55px;
+    color:#1f2937;
+    line-height:68px;
+    margin-bottom:25px;
+
+}
+
+.hero-text p{
+
+    font-size:18px;
+    color:#64748b;
+    line-height:32px;
+    margin-bottom:35px;
+
+}
+
+.hero-btn{
+
+    display:inline-block;
+
+    background:#2563eb;
+    color:#fff;
+
+    padding:15px 35px;
+
+    border-radius:40px;
+
+    transition:.3s;
+
+}
+
+.hero-btn:hover{
+
+    background:#1d4ed8;
+
+}
+
+.hero-image{
+
+    flex:1;
+    text-align:right;
+
+}
+
+.hero-image img{
+
+    max-width:600px;
+    width:100%;
+
+}
+
+/*=================================
+        DONATE FORM
+==================================*/
+
+.donate-section{
+
+    width:90%;
+    max-width:1100px;
+
+    margin:80px auto;
+
+    background:#fff;
+
+    padding:50px;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+.donate-section h2{
+
+    text-align:center;
+
+    font-size:38px;
+
+    color:#1f2937;
+
+}
+
+.donate-section>p{
+
+    text-align:center;
+
+    color:#64748b;
+
+    margin:15px 0 40px;
+
+}
+
+/*=================================
+        FORM
+==================================*/
+
+.input-box{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:25px;
+
+    margin-bottom:25px;
+
+}
+
+.input-box.single{
+
+    grid-template-columns:1fr;
+
+}
+
+.input-box label{
+
+    display:block;
+
+    font-weight:600;
+
+    margin-bottom:10px;
+
+    color:#374151;
+
+}
+
+.input-box input,
+.input-box select,
+.input-box textarea{
+
+    width:100%;
+
+    padding:15px;
+
+    border:1px solid #d1d5db;
+
+    border-radius:10px;
+
+    outline:none;
+
+    font-size:15px;
+
+    transition:.3s;
+
+}
+
+.input-box input:focus,
+.input-box select:focus,
+.input-box textarea:focus{
+
+    border-color:#2563eb;
+
+    box-shadow:0 0 10px rgba(37,99,235,.15);
+
+}
+
+textarea{
+
+    resize:none;
+
+}
+.full-input{
+
+    margin-bottom:25px;
+
+}
+
+.full-input label{
+
+    display:block;
+
+    margin-bottom:10px;
+
+    font-weight:600;
+
+}
+
+.full-input textarea{
+
+    width:100%;
+
+    padding:15px;
+
+    border:1px solid #d1d5db;
+
+    border-radius:10px;
+
+    outline:none;
+
+}
+
+/*=================================
+        SUBMIT BUTTON
+==================================*/
+
+.submit-area{
+
+    text-align:center;
+    margin-top:35px;
+
+}
+
+.submit-area button{
+
+    background:#2563eb;
+    color:#fff;
+
+    border:none;
+
+    padding:16px 40px;
+
+    font-size:17px;
+
+    border-radius:50px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.submit-area button i{
+
+    margin-right:8px;
+
+}
+
+.submit-area button:hover{
+
+    background:#1d4ed8;
+
+    transform:translateY(-3px);
+
+    box-shadow:0 12px 25px rgba(37,99,235,.25);
+
+}
+
+/*=================================
+        WHY DONATE
+==================================*/
+
+.why-donate{
+
+    width:90%;
+    margin:80px auto;
+
+    text-align:center;
+
+}
+
+.section-title h2{
+
+    font-size:38px;
+
+    color:#1f2937;
+
+    margin-bottom:15px;
+
+}
+
+.section-title p{
+
+    color:#64748b;
+
+    margin-bottom:50px;
+
+    font-size:17px;
+
+}
+
+/*=================================
+        FEATURE CARD
+==================================*/
+
+.feature-container{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:30px;
+
+}
+
+.feature-card{
+
+    background:#fff;
+
+    padding:35px 25px;
+
+    border-radius:18px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+}
+
+.feature-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 18px 35px rgba(37,99,235,.18);
+
+}
+
+.feature-card i{
+
+    font-size:48px;
+
+    color:#2563eb;
+
+    margin-bottom:20px;
+
+}
+
+.feature-card h3{
+
+    font-size:24px;
+
+    color:#1f2937;
+
+    margin-bottom:15px;
+
+}
+
+.feature-card p{
+
+    color:#64748b;
+
+    line-height:28px;
+
+}
+
+/*=================================
+        DONATION BOOKS
+==================================*/
+
+.donation-books{
+
+    width:90%;
+    margin:80px auto;
+
+    text-align:center;
+
+}
+
+.donation-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fill,minmax(230px,1fr));
+
+    gap:28px;
+
+    text-align:left;
+
+}
+
+.donation-card{
+
+    background:#fff;
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    transition:transform .35s, box-shadow .35s;
+
+    position:relative;
+
+    animation:donationIn .4s ease both;
+
+}
+
+@keyframes donationIn{
+
+    from{ opacity:0; transform:translateY(15px); }
+    to{ opacity:1; transform:translateY(0); }
+
+}
+
+.donation-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 18px 35px rgba(37,99,235,.18);
+
+}
+
+/* Highlight ring for a freshly submitted book */
+.donation-card.just-added{
+
+    box-shadow:0 0 0 3px #2563eb, 0 18px 35px rgba(37,99,235,.25);
+
+}
+
+.donation-thumb{
+
+    width:100%;
+    height:280px;
+    overflow:hidden;
+
+}
+
+.donation-thumb img{
+
+    width:100%;
+    height:100%;
+    object-fit:cover;
+
+}
+
+.donation-info{
+
+    padding:18px 18px 24px;
+
+}
+
+.donation-info h3{
+
+    font-size:20px;
+
+    color:#1f2937;
+
+    margin-bottom:4px;
+
+}
+
+.donation-author{
+
+    display:block;
+
+    color:#94a3b8;
+
+    font-size:13px;
+
+    margin-bottom:10px;
+
+}
+
+.donation-info p{
+
+    color:#64748b;
+
+    font-size:14px;
+
+    margin-bottom:10px;
+
+}
+
+.donation-condition{
+
+    display:inline-block;
+
+    background:#eef2ff;
+
+    color:#2563eb;
+
+    font-size:12px;
+
+    font-weight:500;
+
+    padding:5px 12px;
+
+    border-radius:30px;
+
+    margin-bottom:14px;
+
+}
+
+.donation-info h4{
+
+    color:#2563eb;
+
+    font-size:22px;
+
+    margin-bottom:12px;
+
+}
+
+.donation-donor{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:7px;
+
+    color:#64748b;
+
+    font-size:13px;
+
+}
+
+.donation-donor i{
+
+    color:#2563eb;
+
+    font-size:12px;
+
+}
+
+/* Category badge */
+.book-badge{
+
+    position:absolute;
+
+    top:15px;
+    left:15px;
+
+    color:#fff;
+
+    padding:6px 15px;
+
+    border-radius:30px;
+
+    font-size:12px;
+
+    font-weight:600;
+
+    letter-spacing:.5px;
+
+    z-index:2;
+
+}
+
+.badge-new{      background:#2563eb; }
+.badge-used{     background:#f59e0b; }
+.badge-free{     background:#16a34a; }
+.badge-exchange{ background:#7c3aed; }
+
+/* Empty state */
+.donation-empty{
+
+    background:#fff;
+
+    border-radius:18px;
+
+    padding:60px 20px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.06);
+
+}
+
+.donation-empty i{
+
+    font-size:50px;
+
+    color:#c7d2fe;
+
+    margin-bottom:18px;
+
+}
+
+.donation-empty h3{
+
+    font-size:24px;
+
+    color:#1f2937;
+
+    margin-bottom:8px;
+
+}
+
+.donation-empty p{
+
+    color:#64748b;
+
+}
+
+/*=================================
+        RESPONSIVE
+==================================*/
+
+@media(max-width:992px){
+
+    .donate-hero{
+
+        flex-direction:column;
+
+        text-align:center;
+
+        padding:50px 30px;
+
+    }
+
+    .hero-image{
+
+        text-align:center;
+
+    }
+
+    .hero-image img{
+
+        max-width:450px;
+
+    }
+
+    .input-box{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .donation-grid{
+
+        grid-template-columns:repeat(auto-fill,minmax(160px,1fr));
+
+        gap:18px;
+
+    }
+
+    .donation-thumb{
+
+        height:220px;
+
+    }
+
+}
+
+@media(max-width:400px){
+
+    .donation-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+@media(max-width:576px){
+
+    .donate-hero{
+
+        padding:35px 20px;
+
+    }
+
+    .hero-text h1{
+
+        font-size:36px;
+
+        line-height:48px;
+
+    }
+
+    .hero-text p{
+
+        font-size:16px;
+
+        line-height:28px;
+
+    }
+
+    .donate-section{
+
+        padding:25px;
+
+    }
+
+    .donate-section h2{
+
+        font-size:30px;
+
+    }
+
+    .section-title h2{
+
+        font-size:30px;
+
+    }
+
+    .submit-area button{
+
+        width:100%;
+
+    }
+
+}
+
+/*==================================
+            FOOTER
+==================================*/
+
+footer{
+
+    background:#0f172a;
+
+    color:#fff;
+
+    margin-top:80px;
+
+    padding:60px 0 20px;
+
+}
+
+.footer-container{
+
+    width:90%;
+    margin:auto;
+
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:40px;
+
+}
+
+.footer-box h2,
+.footer-box h3{
+
+    margin-bottom:20px;
+
+}
+
+.footer-box p{
+
+    color:#cbd5e1;
+    line-height:28px;
+    margin-bottom:10px;
+
+}
+
+.footer-box ul{
+
+    padding:0;
+
+}
+
+.footer-box ul li{
+
+    list-style:none;
+    margin-bottom:12px;
+
+}
+
+.footer-box ul li a{
+
+    color:#cbd5e1;
+    transition:.3s;
+
+}
+
+.footer-box ul li a:hover{
+
+    color:#60a5fa;
+    padding-left:6px;
+
+}
+
+
+@media(max-width:992px){
+
+.footer-container{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:576px){
+
+.footer-container{
+
+grid-template-columns:1fr;
+
+text-align:center;
+
+}
+
+.social{
+
+justify-content:center;
+
+}
+
+}
+
+/*=============================
+        SOCIAL ICON
+=============================*/
+
+.social{
+
+    display:flex;
+    gap:15px;
+    margin-top:20px;
+
+}
+
+.social a{
+
+    width:42px;
+    height:42px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    border-radius:50%;
+
+    background:#1e293b;
+
+    color:#fff;
+
+    transition:.3s;
+
+}
+
+.social a:hover{
+
+    background:#2563eb;
+    transform:translateY(-5px);
+
+}
+
+/*=============================
+        COPYRIGHT
+=============================*/
+
+.copyright{
+
+    width:90%;
+    margin:40px auto 0;
+
+    border-top:1px solid rgba(255,255,255,.12);
+
+    text-align:center;
+
+    padding-top:20px;
+
+}
+
+.copyright p{
+
+    color:#cbd5e1;
+    font-size:15px;
+
+}
+
+
+/*==================================
+        SCROLL TO TOP
+==================================*/
+
+#topBtn{
+    position:fixed;
+    bottom:25px;
+    right:25px;
+
+    width:50px;
+    height:50px;
+
+    border:none;
+    border-radius:50%;
+
+    background:#2563eb;
+    color:#fff;
+
+    cursor:pointer;
+
+    display:none;
+
+    font-size:18px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.25);
+
+    transition:.3s;
+}
+
+#topBtn:hover{
+    background:#1748b3;
+    transform:scale(1.1);
+}
+
+
+/*==================================
+        SMOOTH SCROLL
+==================================*/
+
+html{
+    scroll-behavior:smooth;
+}
+
+
+/*==================================
+        GLOBAL HOVER
+==================================*/
+
+button,
+.btn,
+.login-btn,
+.donate a{
+    transition:.3s;
+}
+
+button:hover,
+.btn:hover{
+    transform:translateY(-2px);
+}
+
+
+/*==================================
+        RESPONSIVE
+==================================*/

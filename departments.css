@@ -1,0 +1,733 @@
+/*=================================
+        GOOGLE FONT
+==================================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f7f9fc;
+    color:#333;
+}
+
+a{
+    text-decoration:none;
+}
+
+ul{
+    list-style:none;
+}
+
+/*=================================
+            NAVBAR
+==================================*/
+
+header{
+    position:sticky;
+    top:0;
+    z-index:999;
+    background:#fff;
+    box-shadow:0 3px 15px rgba(0,0,0,.08);
+}
+
+.navbar{
+
+    width:90%;
+    margin:auto;
+
+    height:80px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+
+.logo a{
+
+    font-size:28px;
+    font-weight:700;
+    color:#2563eb;
+
+}
+
+.menu{
+
+    display:flex;
+    gap:28px;
+
+}
+
+.menu li a{
+
+    color:#444;
+    font-weight:500;
+    transition:.3s;
+
+}
+
+.menu li a:hover,
+.menu li a.active{
+
+    color:#2563eb;
+
+}
+
+.login-btn{
+
+    background:#2563eb;
+    color:#fff;
+
+    padding:12px 26px;
+
+    border-radius:30px;
+
+    transition:.3s;
+
+}
+
+.login-btn:hover{
+
+    background:#1d4ed8;
+
+}
+
+/*=================================
+        PAGE BANNER
+==================================*/
+
+.department-banner{
+
+    height:320px;
+
+    background:linear-gradient(135deg,#2563eb,#4f46e5);
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
+}
+
+.overlay h1{
+
+    color:#fff;
+    font-size:55px;
+    margin-bottom:15px;
+
+}
+
+.overlay p{
+
+    color:#fff;
+    font-size:20px;
+
+}
+
+/*=================================
+        SEARCH BOX
+==================================*/
+
+.search-box{
+
+    width:90%;
+    margin:60px auto;
+
+    display:flex;
+    justify-content:center;
+    gap:15px;
+
+}
+
+.search-box input{
+
+    width:500px;
+    height:55px;
+
+    border:1px solid #ddd;
+
+    border-radius:8px;
+
+    padding:0 20px;
+
+    outline:none;
+
+    font-size:16px;
+
+}
+
+.search-box input:focus{
+
+    border-color:#2563eb;
+
+}
+
+.search-box button{
+
+    background:#2563eb;
+
+    color:#fff;
+
+    border:none;
+
+    padding:0 28px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.search-box button:hover{
+
+    background:#1d4ed8;
+
+}
+
+/*=================================
+        RESULT COUNT
+==================================*/
+
+.dept-result-count{
+
+    width:90%;
+    margin:0 auto 20px;
+    color:#475569;
+    font-weight:500;
+    font-size:16px;
+
+}
+
+/*=================================
+        DEPARTMENT SECTION
+==================================*/
+
+.departments{
+
+    width:90%;
+    margin:0 auto 80px;
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(270px,1fr));
+
+    gap:30px;
+
+}
+
+/*=================================
+        NEW CARD DETAILS
+==================================*/
+
+.department-card .dept-desc{
+
+    color:#64748b;
+    font-size:15px;
+    margin:0 0 14px;
+    min-height:44px;
+
+}
+
+.department-card .dept-count{
+
+    display:inline-block;
+    background:#e8f1ff;
+    color:#2563eb;
+    padding:6px 16px;
+    border-radius:30px;
+    font-size:14px;
+    font-weight:600;
+    margin-bottom:22px;
+
+}
+
+/*=================================
+        NO RESULTS
+==================================*/
+
+.dept-no-results{
+
+    width:90%;
+    margin:10px auto 80px;
+    padding:60px 20px;
+    text-align:center;
+
+    background:#fff;
+    border-radius:18px;
+    box-shadow:0 10px 30px rgba(0,0,0,.06);
+
+}
+
+.dept-no-results i{
+
+    font-size:48px;
+    color:#c7d2fe;
+    margin-bottom:16px;
+
+}
+
+.dept-no-results h3{
+
+    font-size:24px;
+    color:#1f2937;
+    margin-bottom:8px;
+
+}
+
+.dept-no-results p{
+
+    color:#64748b;
+
+}
+
+/*=================================
+        DEPARTMENT CARD
+==================================*/
+
+.department-card{
+
+    background:#fff;
+
+    padding:35px 25px;
+
+    text-align:center;
+
+    border-radius:18px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+.department-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 20px 40px rgba(37,99,235,.18);
+
+}
+
+/* Top Border Animation */
+
+.department-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:0;
+    left:0;
+
+    width:100%;
+    height:5px;
+
+    background:#2563eb;
+
+    transform:scaleX(0);
+
+    transition:.35s;
+
+}
+
+.department-card:hover::before{
+
+    transform:scaleX(1);
+
+}
+
+/*=========================
+        ICON
+==========================*/
+
+.department-card i{
+
+    width:90px;
+    height:90px;
+
+    background:#e8f1ff;
+
+    color:#2563eb;
+
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    margin:auto;
+
+    font-size:38px;
+
+    transition:.35s;
+
+}
+
+.department-card:hover i{
+
+    background:#2563eb;
+
+    color:#fff;
+
+
+}
+
+/*=========================
+        TITLE
+==========================*/
+
+.department-card h2{
+
+    margin:25px 0 12px;
+
+    font-size:26px;
+
+    color:#1e293b;
+
+}
+
+.department-card p{
+
+    color:#64748b;
+
+    margin-bottom:25px;
+
+    font-size:16px;
+
+}
+
+/*=========================
+        BUTTON
+==========================*/
+
+.department-card a{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    background:#2563eb;
+
+    color:#fff;
+
+    padding:12px 24px;
+
+    border-radius:30px;
+
+    transition:.3s;
+
+    font-weight:500;
+
+}
+
+.department-card a:hover{
+
+    background:#1d4ed8;
+
+    gap:14px;
+
+}
+
+
+
+/*=================================
+            FOOTER
+==================================*/
+
+footer{
+
+    background:#0f172a;
+
+    color:#fff;
+
+    padding:70px 0 20px;
+
+    margin-top:80px;
+
+}
+
+.footer-container{
+
+    width:90%;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:40px;
+
+}
+
+.footer-box h2,
+.footer-box h3{
+
+    margin-bottom:20px;
+
+}
+
+.footer-box p{
+
+    color:#cbd5e1;
+
+    line-height:28px;
+
+    margin-bottom:12px;
+
+}
+
+.footer-box ul li{
+
+    margin-bottom:12px;
+
+}
+
+.footer-box ul li a{
+
+    color:#cbd5e1;
+
+    transition:.3s;
+
+}
+
+.footer-box ul li a:hover{
+
+    color:#60a5fa;
+
+    padding-left:6px;
+
+}
+
+/*=================================
+        SOCIAL ICONS
+==================================*/
+
+.social{
+
+    display:flex;
+
+    gap:15px;
+
+    margin-top:20px;
+
+}
+
+.social a{
+
+    width:42px;
+
+    height:42px;
+
+    background:#1e293b;
+
+    color:#fff;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    transition:.3s;
+
+}
+
+.social a:hover{
+
+    background:#2563eb;
+
+    transform:translateY(-5px);
+
+}
+
+/*=================================
+        COPYRIGHT
+==================================*/
+
+.copyright{
+
+    width:90%;
+
+    margin:40px auto 0;
+
+    padding-top:20px;
+
+    text-align:center;
+
+    border-top:1px solid rgba(255,255,255,.15);
+
+    color:#cbd5e1;
+
+}
+
+/*=================================
+        SCROLL TO TOP
+==================================*/
+
+#topBtn{
+
+    position:fixed;
+
+    right:25px;
+
+    bottom:25px;
+
+    width:50px;
+
+    height:50px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:#2563eb;
+
+    color:#fff;
+
+    cursor:pointer;
+
+    display:none;
+
+    font-size:18px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.25);
+
+    transition:.3s;
+
+}
+
+#topBtn:hover{
+
+    background:#1d4ed8;
+
+    transform:scale(1.1);
+
+}
+
+/*=================================
+        RESPONSIVE
+==================================*/
+
+@media(max-width:992px){
+
+.footer-container{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.search-box{
+
+flex-direction:column;
+
+align-items:center;
+
+}
+
+.search-box input{
+
+width:100%;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.menu{
+
+display:none;
+
+}
+
+.department-banner{
+
+height:250px;
+
+}
+
+.overlay h1{
+
+font-size:36px;
+
+}
+
+.overlay p{
+
+font-size:16px;
+
+}
+
+.departments{
+
+grid-template-columns:1fr;
+
+}
+
+.footer-container{
+
+grid-template-columns:1fr;
+
+text-align:center;
+
+}
+
+.social{
+
+justify-content:center;
+
+}
+
+.cta-content h2{
+
+font-size:30px;
+
+}
+
+}
+
+@media(max-width:576px){
+
+.department-card{
+
+padding:25px;
+
+}
+
+.department-card h2{
+
+font-size:22px;
+
+}
+
+.department-card i{
+
+width:75px;
+
+height:75px;
+
+font-size:30px;
+
+}
+
+}

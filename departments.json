@@ -1,0 +1,11 @@
+[
+  { "name": "Architecture", "icon": "fa-compass-drafting", "books": 130, "desc": "Design, drawing & building planning" },
+  { "name": "Automobile", "icon": "fa-car", "books": 160, "desc": "Engines, chassis & vehicle systems" },
+  { "name": "Computer Technology", "icon": "fa-computer", "books": 320, "desc": "Programming, databases & networking" },
+  { "name": "Civil", "icon": "fa-building", "books": 250, "desc": "Surveying, structures & construction" },
+  { "name": "Electrical", "icon": "fa-bolt", "books": 280, "desc": "Circuits, machines & power systems" },
+  { "name": "Mechanical", "icon": "fa-gears", "books": 210, "desc": "Thermodynamics, design & machines" },
+  { "name": "Power", "icon": "fa-battery-three-quarters", "books": 95, "desc": "Generation, distribution & protection" },
+  { "name": "RAC", "icon": "fa-snowflake", "books": 120, "desc": "Refrigeration & air conditioning" },
+  { "name": "Telecommunication", "icon": "fa-tower-cell", "books": 280, "desc": "Communication & signal systems" }
+]
